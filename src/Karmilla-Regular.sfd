@@ -4,23 +4,24 @@ FullName: Karmilla Regular
 FamilyName: Karmilla
 Weight: Regular
 Copyright: Karmilla is Copyright (c) 2012, Manuel Schmalstieg (greyscalepress.com) and Raphael Bastide (raphaelbastide.com) \nKarmilla is a variation of Karla, optimized for French.\nKarla is Copyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
-Version: 1.900
+Version: 2.000
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 sfntRevision: 0x00010000
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 XUID: [1021 288 713564382 10587622]
 FSType: 8
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1399190928
+ModificationTime: 1513625486
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -53,8 +54,8 @@ OS2StrikeYPos: 250
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000027.08000042.14000000.00000000
-Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 0"  {"'onum' Oldstyle Figures in Latin lookup 0 subtable" ("oldstyle" ) } ['onum' ('latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 0" { "'onum' Oldstyle Figures in Latin lookup 0 subtable" ("oldstyle") } ['onum' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -65,7 +66,7 @@ PUSHB_1
  4
 SCANTYPE
 EndTTInstrs
-LangName: 1033 "" "" "" "" "" "Version 1.000" "" "" "" "Jonathan Pinhorn" "" "" "jonpinhorn.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "" "" "Version 1.000" "" "" "" "Jonathan Pinhorn" "" "" "jonpinhorn.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 3 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -73,20 +74,20 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 14 12
+WinInfo: 170 34 12
 BeginPrivate: 0
 EndPrivate
 Grid
 -1000 874.8 m 0
- 2000 874.8 l 0
+ 2000 874.8 l 1024
 -1000 -177 m 0
- 2000 -177 l 0
+ 2000 -177 l 1024
 -1000 0 m 0
- 2000 0 l 0
+ 2000 0 l 1024
 -1000 -236 m 0
- 2000 -236 l 0
+ 2000 -236 l 1024
 -1000 681 m 0
- 2000 681 l 0
+ 2000 681 l 1024
 -117 681 m 1
  -38 681 l 1
  -38 0 l 1
@@ -94,13 +95,15 @@ Grid
  -117 681 l 1
 EndSplineSet
 TeXData: 1 0 0 249561 124779 83187 501219 1048576 83187 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65549 199
+BeginChars: 65549 205
 
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 553
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: .null
@@ -108,6 +111,8 @@ Encoding: 65537 -1 1
 Width: 0
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: nonmarkingreturn
@@ -115,6 +120,8 @@ Encoding: 65538 -1 2
 Width: 553
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: space
@@ -123,6 +130,8 @@ AltUni2: 0000a0.ffffffff.0 0000a0.ffffffff.0 0000a0.ffffffff.0 0000a0.ffffffff.0
 Width: 238
 Flags: W
 LayerCount: 2
+Fore
+Validated: 1
 EndChar
 
 StartChar: comma
@@ -144,6 +153,7 @@ SplineSet
  92 -50 92 -50 105 -5 c 1,11,0
  82 -3 82 -3 67 10 c 128,-1,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: period
@@ -163,6 +173,7 @@ SplineSet
  114 -9 114 -9 88.5 -9 c 128,-1,0
  63 -9 63 -9 46.5 7.5 c 128,-1,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: semicolon
@@ -193,6 +204,7 @@ SplineSet
  166 329 166 329 140.5 329 c 128,-1,12
  115 329 115 329 98.5 345.5 c 128,-1,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: colon
@@ -221,6 +233,7 @@ SplineSet
  140 329 140 329 114.5 329 c 128,-1,8
  89 329 89 329 72.5 345.5 c 128,-1,9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: hyphen
@@ -236,6 +249,7 @@ SplineSet
  38 257 l 1,3,-1
  38 325 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: endash
@@ -251,6 +265,7 @@ SplineSet
  55 257 l 1,3,-1
  55 325 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: emdash
@@ -266,6 +281,7 @@ SplineSet
  55 257 l 1,3,-1
  55 325 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: exclam
@@ -290,6 +306,7 @@ SplineSet
  166 -9 166 -9 140.5 -9 c 128,-1,4
  115 -9 115 -9 98.5 7.5 c 128,-1,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: a
@@ -327,7 +344,8 @@ SplineSet
  314 50 314 50 355.5 91.5 c 128,-1,34
  397 133 397 133 397 199 c 1,26,27
 EndSplineSet
-Kerns2: 62 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: b
@@ -361,7 +379,8 @@ SplineSet
  372.085 420 372.085 420 314.8 420 c 128,-1,14
  257.514 420 257.514 420 219.735 383.27 c 128,-1,15
 EndSplineSet
-Kerns2: 62 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: c
@@ -391,7 +410,8 @@ SplineSet
  175.938 490 175.938 490 260.683 490 c 128,-1,0
  345.429 490 345.429 490 395.128 446.513 c 128,-1,1
 EndSplineSet
-Kerns2: 62 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: d
@@ -425,6 +445,7 @@ SplineSet
  336 420 336 420 278.202 420 c 128,-1,14
  220.404 420 220.404 420 180.702 370.895 c 128,-1,15
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: e
@@ -455,7 +476,8 @@ SplineSet
  385 282 l 1,23,24
  385 382.2 385 382.2 323.5 415 c 0,17,18
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524321
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: f
@@ -485,7 +507,8 @@ SplineSet
  308 689 308 689 347 676 c 1,20,-1
  333 614 l 1,0,1
 EndSplineSet
-Kerns2: 47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: g
@@ -543,7 +566,8 @@ SplineSet
  400 265 400 265 400 316.5 c 128,-1,51
  400 368 400 368 369 400.5 c 128,-1,52
 EndSplineSet
-Kerns2: 36 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 36 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: h
@@ -570,7 +594,8 @@ SplineSet
  180 681 l 1,17,-1
  180 390 l 1,0,1
 EndSplineSet
-Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: i
@@ -595,6 +620,7 @@ SplineSet
  169 591 169 591 145 591 c 128,-1,4
  121 591 121 591 107.5 604.5 c 128,-1,5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: j
@@ -624,7 +650,8 @@ SplineSet
  -82 -140 l 1,20,21
  -18.8824 -177 -18.8824 -177 33 -177 c 0,8,9
 EndSplineSet
-Kerns2: 17 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 17 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: k
@@ -648,7 +675,8 @@ SplineSet
  435 0 l 1,11,-1
  244 253 l 1,0,-1
 EndSplineSet
-Kerns2: 36 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 36 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: l
@@ -664,6 +692,7 @@ SplineSet
  101 0 l 1,3,-1
  101 681 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: m
@@ -700,7 +729,8 @@ SplineSet
  168 478 l 1,30,-1
  177 386 l 1,0,1
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: n
@@ -727,7 +757,8 @@ SplineSet
  168 478 l 1,17,-1
  177 386 l 1,0,1
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: o
@@ -756,7 +787,8 @@ SplineSet
  416 154 416 154 416 239.5 c 128,-1,10
  416 325 416 325 380 373.5 c 128,-1,11
 EndSplineSet
-Kerns2: 62 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -71 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -71 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: p
@@ -789,7 +821,8 @@ SplineSet
  256.059 59 256.059 59 311.779 59 c 128,-1,12
  367.5 59 367.5 59 410.25 106.963 c 128,-1,13
 EndSplineSet
-Kerns2: 62 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: q
@@ -822,7 +855,8 @@ SplineSet
  329 420 329 420 270.957 420 c 128,-1,13
  212.915 420 212.915 420 172.457 371.244 c 128,-1,14
 EndSplineSet
-Kerns2: 62 -47 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 81 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -47 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: r
@@ -844,7 +878,8 @@ SplineSet
  357 401 l 1,12,13
  327 411 327 411 296 411 c 0,0,1
 EndSplineSet
-Kerns2: 57 -48 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 57 -48 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: s
@@ -882,7 +917,8 @@ SplineSet
  76 268 76 268 76 361 c 0,31,0
  76 420 76 420 126.5 455 c 128,-1,1
 EndSplineSet
-Kerns2: 62 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: t
@@ -911,7 +947,8 @@ SplineSet
  294 52 294 52 340 70 c 1,21,-1
  351 14 l 1,0,1
 EndSplineSet
-Kerns2: 62 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524321
+Kerns2: 62 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: u
@@ -937,7 +974,8 @@ SplineSet
  426 0 l 1,17,-1
  426 95 l 1,0,1
 EndSplineSet
-Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: v
@@ -956,7 +994,8 @@ SplineSet
  18 478 l 1,6,-1
  107 478 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: w
@@ -981,7 +1020,8 @@ SplineSet
  18 478 l 1,12,-1
  100 478 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: x
@@ -1005,7 +1045,8 @@ SplineSet
  303 239 l 1,11,-1
  485 0 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: y
@@ -1031,7 +1072,8 @@ SplineSet
  66.7647 -246 66.7647 -246 5 -211 c 1,17,-1
  5 -139 l 1,0,1
 EndSplineSet
-Kerns2: 62 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -56 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -56 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: z
@@ -1053,7 +1095,8 @@ SplineSet
  53 0 l 1,9,-1
  53 64 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: A
@@ -1077,7 +1120,8 @@ SplineSet
  289 532 l 1,10,-1
  184 222 l 1,8,-1
 EndSplineSet
-Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: B
@@ -1116,6 +1160,7 @@ SplineSet
  180 561 l 1,31,-1
  180 348 l 1,24,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: C
@@ -1145,6 +1190,7 @@ SplineSet
  51 470.875 51 470.875 126.167 555.438 c 128,-1,22
  201.333 640 201.333 640 319 640 c 0,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: D
@@ -1171,7 +1217,8 @@ SplineSet
  179 559 l 1,16,-1
  179 69 l 1,8,-1
 EndSplineSet
-Kerns2: 62 -25 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -25 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: E
@@ -1195,6 +1242,7 @@ SplineSet
  100 0 l 1,11,-1
  100 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: F
@@ -1216,7 +1264,8 @@ SplineSet
  101 0 l 1,9,-1
  101 629 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  61 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 61 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: G
@@ -1250,6 +1299,7 @@ SplineSet
  500 0 l 1,25,-1
  490 108 l 1,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: H
@@ -1273,6 +1323,7 @@ SplineSet
  101 629 l 1,11,-1
  180 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: I
@@ -1288,6 +1339,7 @@ SplineSet
  101 0 l 1,3,-1
  101 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: J
@@ -1309,6 +1361,7 @@ SplineSet
  324 182 l 2,11,0
  324 79 324 79 277.5 34 c 128,-1,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: K
@@ -1332,6 +1385,7 @@ SplineSet
  101 629 l 1,11,-1
  181 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: L
@@ -1349,7 +1403,8 @@ SplineSet
  180 629 l 1,5,-1
  180 69 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 62 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: M
@@ -1374,6 +1429,7 @@ SplineSet
  101 629 l 1,12,-1
  214 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: N
@@ -1395,6 +1451,7 @@ SplineSet
  99 629 l 1,9,-1
  193 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: O
@@ -1423,7 +1480,8 @@ SplineSet
  514 437 514 437 462.5 503 c 128,-1,11
  411 569 411 569 323 569 c 128,-1,12
 EndSplineSet
-Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  61 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 61 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: P
@@ -1452,7 +1510,8 @@ SplineSet
  178 311 l 1,17,-1
  302 311 l 2,10,11
 EndSplineSet
-Kerns2: 38 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 38 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Q
@@ -1488,7 +1547,8 @@ SplineSet
  514 437 514 437 462.5 503 c 128,-1,22
  411 569 411 569 323 569 c 128,-1,23
 EndSplineSet
-Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: R
@@ -1520,6 +1580,7 @@ SplineSet
  180 312 l 1,20,-1
  314 312 l 2,13,14
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: S
@@ -1558,7 +1619,8 @@ SplineSet
  505 551 505 551 513 476 c 1,31,-1
  436 476 l 1,0,1
 EndSplineSet
-Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: T
@@ -1578,7 +1640,8 @@ SplineSet
  6 561 l 1,7,-1
  6 629 l 1,0,-1
 EndSplineSet
-Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -97 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  27 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -79 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  25 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  24 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -85 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -97 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 27 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -79 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 25 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 24 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -85 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: U
@@ -1604,6 +1667,7 @@ SplineSet
  87 629 l 1,15,-1
  166 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: V
@@ -1622,7 +1686,8 @@ SplineSet
  18 629 l 1,6,-1
  101 629 l 1,0,-1
 EndSplineSet
-Kerns2: 52 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  40 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 52 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 40 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: W
@@ -1647,7 +1712,8 @@ SplineSet
  14 629 l 1,12,-1
  102 629 l 1,0,-1
 EndSplineSet
-Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: X
@@ -1671,7 +1737,8 @@ SplineSet
  366 313 l 1,11,-1
  593 0 l 1,0,-1
 EndSplineSet
-Kerns2: 52 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 52 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Y
@@ -1692,7 +1759,8 @@ SplineSet
  10 629 l 1,8,-1
  104 629 l 1,0,-1
 EndSplineSet
-Kerns2: 56 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  54 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  52 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -82 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  40 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -67 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  31 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  27 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  25 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  24 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 1
+Kerns2: 56 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 54 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 52 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -82 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 45 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 40 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -67 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 31 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 27 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 25 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 24 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Z
@@ -1714,6 +1782,7 @@ SplineSet
  73 0 l 1,9,-1
  73 71 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -1729,6 +1798,7 @@ SplineSet
  27 677 l 1,3,-1
  109 677 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: apostrophe
@@ -1750,6 +1820,7 @@ SplineSet
  98.4404 534.144 98.4404 534.144 111 579 c 1,11,0
  88 581 88 581 73 594 c 128,-1,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: quoteleft
@@ -1771,6 +1842,7 @@ SplineSet
  162 548 162 548 162 526 c 128,-1,0
  162 504 162 504 146.5 488.5 c 128,-1,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: quoteright
@@ -1792,6 +1864,7 @@ SplineSet
  35.998 607 35.998 607 35.998 629 c 128,-1,0
  35.998 651 35.998 651 51.998 666 c 128,-1,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: parenleft
@@ -1811,6 +1884,7 @@ SplineSet
  328 687 l 1,9,0
  155 511.988 155 511.988 155 307 c 128,-1,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: parenright
@@ -1830,6 +1904,7 @@ SplineSet
  28 -73 l 1,9,0
  201 102.012 201 102.012 201 307 c 128,-1,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: plus
@@ -1853,6 +1928,7 @@ SplineSet
  224 491 l 1,11,-1
  303 491 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: minus
@@ -1868,6 +1944,7 @@ SplineSet
  79 325 l 1,3,-1
  409 325 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: equal
@@ -1888,6 +1965,7 @@ SplineSet
  79 377 l 1,7,-1
  409 377 l 1,4,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: zero
@@ -1916,6 +1994,7 @@ SplineSet
  462 192 462 192 462 314.5 c 128,-1,8
  462 437 462 437 420 502.5 c 128,-1,9
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -1935,6 +2014,7 @@ SplineSet
  102 505 102 505 49 502 c 1,8,-1
  49 580 l 1,0,1
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -1970,6 +2050,7 @@ SplineSet
  143 144 143 144 143 103 c 2,28,-1
  143 73 l 1,0,-1
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2010,6 +2091,7 @@ SplineSet
  380.489 640 380.489 640 442.744 591.698 c 128,-1,33
  505 543.397 505 543.397 505 468 c 0,0,1
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2037,6 +2119,7 @@ SplineSet
  353 513 l 1,13,-1
  120 213 l 1,11,-1
 EndSplineSet
+Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2068,6 +2151,7 @@ SplineSet
  348.579 61 348.579 61 387.789 101.27 c 128,-1,24
  427 141.541 427 141.541 427 204 c 0,0,1
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2106,6 +2190,7 @@ SplineSet
  358 309 358 309 301.576 309 c 128,-1,22
  245.152 309 245.152 309 207.5 273.5 c 128,-1,23
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2125,6 +2210,7 @@ SplineSet
  24 629 l 1,6,-1
  452 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2173,6 +2259,7 @@ SplineSet
  243.222 568 243.222 568 201.111 539.575 c 128,-1,42
  159 511.15 159 511.15 159 463 c 0,32,33
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2213,6 +2300,7 @@ SplineSet
  411 500.222 411 500.222 373.438 533.611 c 128,-1,29
  335.875 567 335.875 567 279 567 c 128,-1,30
 EndSplineSet
+Validated: 524289
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
 
@@ -2238,6 +2326,7 @@ SplineSet
  132 59 132 59 266 59 c 128,-1,13
  400 59 400 59 400 270 c 0,8,9
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: one.propold
@@ -2256,6 +2345,7 @@ SplineSet
  101 414 101 414 49 412 c 1,8,-1
  49 489 l 1,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: two.propold
@@ -2290,6 +2380,7 @@ SplineSet
  143 182.038 143 182.038 143 105 c 2,26,-1
  143 73 l 1,0,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: three.propold
@@ -2328,6 +2419,7 @@ SplineSet
  388 424 388 424 354 453.5 c 128,-1,36
  320 483 320 483 260 483 c 0,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: four.propold
@@ -2354,6 +2446,7 @@ SplineSet
  351 422 l 1,13,-1
  112 115 l 1,11,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: five.propold
@@ -2385,6 +2478,7 @@ SplineSet
  205 474 l 1,22,-1
  187 296 l 1,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: six.propold
@@ -2422,6 +2516,7 @@ SplineSet
  358 309 358 309 301.576 309 c 128,-1,22
  245.152 309 245.152 309 207.5 273.5 c 128,-1,23
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: seven.propold
@@ -2440,6 +2535,7 @@ SplineSet
  24 551 l 1,6,-1
  452 551 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: eight.propold
@@ -2487,6 +2583,7 @@ SplineSet
  243.222 568 243.222 568 201.111 539.575 c 128,-1,42
  159 511.15 159 511.15 159 463 c 0,32,33
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: nine.propold
@@ -2526,6 +2623,7 @@ SplineSet
  411 412 411 412 375 446.5 c 128,-1,27
  339 481 339 481 279 481 c 128,-1,28
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: dollar
@@ -2576,6 +2674,7 @@ SplineSet
  285 569 l 1,45,39
  228 563 228 563 199 536 c 128,-1,40
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: question
@@ -2616,6 +2715,7 @@ SplineSet
  159 68 159 68 175 85 c 128,-1,26
  191 102 191 102 217 102 c 128,-1,27
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: sterling
@@ -2640,7 +2740,7 @@ SplineSet
  439 110 439 110 445 154 c 1,16,-1
  529 154 l 1,17,18
  522.616 77.3866 522.616 77.3866 481.02 38.6933 c 128,-1,19
- 439.425 1.06581e-14 439.425 1.06581e-14 345 0 c 2,20,-1
+ 439.425 1.06581e-014 439.425 1.06581e-014 345 0 c 2,20,-1
  20 0 l 1,21,-1
  20 69 l 1,22,-1
  48 69 l 2,23,24
@@ -2657,6 +2757,7 @@ SplineSet
  466 564 466 564 477 490 c 1,37,-1
  400 490 l 1,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: grave
@@ -2672,6 +2773,7 @@ SplineSet
  24 790 l 1,3,-1
  57 860 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: acute
@@ -2687,6 +2789,7 @@ SplineSet
  258 860 l 1,3,-1
  290 790 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: agrave
@@ -2729,6 +2832,7 @@ SplineSet
  149 661 l 1,37,-1
  182 731 l 1,34,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: egrave
@@ -2764,6 +2868,7 @@ SplineSet
  126 666 l 1,28,-1
  159 736 l 1,25,-1
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: ograve
@@ -2797,6 +2902,7 @@ SplineSet
  141 661 l 1,21,-1
  174 731 l 1,18,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Agrave
@@ -2825,6 +2931,7 @@ SplineSet
  157 790 l 1,14,-1
  190 860 l 1,11,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Egrave
@@ -2853,6 +2960,7 @@ SplineSet
  161 790 l 1,15,-1
  194 860 l 1,12,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: ugrave
@@ -2883,6 +2991,7 @@ SplineSet
  167 699 l 1,21,-1
  200 769 l 1,18,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: aacute
@@ -2926,6 +3035,7 @@ SplineSet
  383 731 l 1,38,-1
  415 661 l 1,35,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: eacute
@@ -2935,6 +3045,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 N 1 0 0 1 115.642 -127 2
 Refer: 16 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: oacute
@@ -2944,6 +3055,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 132 -127 2
 Refer: 26 111 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uacute
@@ -2953,6 +3065,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 N 1 0 0 1 140 -127 2
 Refer: 32 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Aacute
@@ -2981,6 +3094,7 @@ SplineSet
  391 860 l 1,14,-1
  423 790 l 1,11,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -2990,6 +3104,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 N 1 0 0 1 160.5 23 2
 Refer: 42 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Igrave
@@ -3010,6 +3125,7 @@ SplineSet
  7 790 l 1,7,-1
  40 860 l 1,4,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -3019,6 +3135,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 -11.5 23 2
 Refer: 46 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -3052,6 +3169,7 @@ SplineSet
  190 790 l 1,22,-1
  223 860 l 1,19,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Oacute
@@ -3061,6 +3179,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 177 23 2
 Refer: 52 79 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ugrave
@@ -3091,6 +3210,7 @@ SplineSet
  193 790 l 1,19,-1
  226 860 l 1,16,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Uacute
@@ -3100,6 +3220,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 180 23 2
 Refer: 58 85 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: circumflex
@@ -3117,6 +3238,7 @@ SplineSet
  204 872 l 1,5,-1
  383 716 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: acircumflex
@@ -3161,6 +3283,7 @@ SplineSet
  282 743 l 1,39,-1
  461 587 l 1,34,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: ecircumflex
@@ -3198,6 +3321,7 @@ SplineSet
  263 748 l 1,30,-1
  442 592 l 1,25,-1
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: ocircumflex
@@ -3233,6 +3357,7 @@ SplineSet
  274 743 l 1,23,-1
  453 587 l 1,18,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: ucircumflex
@@ -3265,6 +3390,7 @@ SplineSet
  301 781 l 1,23,-1
  480 625 l 1,18,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Acircumflex
@@ -3295,6 +3421,7 @@ SplineSet
  290 872 l 1,16,-1
  469 716 l 1,11,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ecircumflex
@@ -3325,6 +3452,7 @@ SplineSet
  300 872 l 1,17,-1
  479 716 l 1,12,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Icircumflex
@@ -3347,6 +3475,7 @@ SplineSet
  141 872 l 1,9,-1
  320 716 l 1,4,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ocircumflex
@@ -3382,6 +3511,7 @@ SplineSet
  323 872 l 1,24,-1
  502 716 l 1,19,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Ucircumflex
@@ -3414,6 +3544,7 @@ SplineSet
  326 872 l 1,21,-1
  505 716 l 1,16,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: tilde
@@ -3441,6 +3572,7 @@ SplineSet
  144 762 144 762 133.5 766 c 128,-1,19
  123 770 123 770 112 770 c 0,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: ampersand
@@ -3497,6 +3629,7 @@ SplineSet
  457.538 399.571 457.538 399.571 474.5 452 c 0,54,55
  480 469 480 469 480 488 c 0,44,45
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: at
@@ -3554,6 +3687,7 @@ SplineSet
  641 363 641 363 641 290 c 2,61,-1
  641 138 l 2,11,12
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: dieresis
@@ -3582,6 +3716,7 @@ SplineSet
  267 779 267 779 244.5 779 c 128,-1,8
  222 779 222 779 207 793.5 c 128,-1,9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: adieresis
@@ -3637,6 +3772,7 @@ SplineSet
  388 605 388 605 365.5 605 c 128,-1,42
  343 605 343 605 328 619.5 c 128,-1,43
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: edieresis
@@ -3685,6 +3821,7 @@ SplineSet
  366 605 366 605 343.5 605 c 128,-1,33
  321 605 321 605 306 619.5 c 128,-1,34
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: odieresis
@@ -3731,6 +3868,7 @@ SplineSet
  381 605 381 605 358.5 605 c 128,-1,26
  336 605 336 605 321 619.5 c 128,-1,27
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: udieresis
@@ -3774,6 +3912,7 @@ SplineSet
  407 605 407 605 384.5 605 c 128,-1,26
  362 605 362 605 347 619.5 c 128,-1,27
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Adieresis
@@ -3815,6 +3954,7 @@ SplineSet
  417 735 417 735 394.5 735 c 128,-1,19
  372 735 372 735 357 749.5 c 128,-1,20
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -3856,6 +3996,7 @@ SplineSet
  401 735 401 735 378.5 735 c 128,-1,20
  356 735 356 735 341 749.5 c 128,-1,21
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Idieresis
@@ -3889,6 +4030,7 @@ SplineSet
  247 735 247 735 224.5 735 c 128,-1,12
  202 735 202 735 187 749.5 c 128,-1,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -3935,6 +4077,7 @@ SplineSet
  429 735 429 735 406.5 735 c 128,-1,27
  384 735 384 735 369 749.5 c 128,-1,28
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Udieresis
@@ -3978,6 +4121,7 @@ SplineSet
  432 735 432 735 409.5 735 c 128,-1,24
  387 735 387 735 372 749.5 c 128,-1,25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dotlessi
@@ -3993,6 +4137,7 @@ SplineSet
  101 0 l 1,3,-1
  101 479 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: igrave
@@ -4013,6 +4158,7 @@ SplineSet
  12 661 l 1,7,-1
  45 731 l 1,4,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: iacute
@@ -4022,6 +4168,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 -15.5 -127 2
 Refer: 139 305 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: icircumflex
@@ -4044,6 +4191,7 @@ SplineSet
  146 743 l 1,9,-1
  325 587 l 1,4,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -4077,6 +4225,7 @@ SplineSet
  252 605 252 605 229.5 605 c 128,-1,12
  207 605 207 605 192 619.5 c 128,-1,13
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: rupeesymbol
@@ -4111,6 +4260,7 @@ SplineSet
  92 580 l 1,27,-1
  92 629 l 1,0,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: less
@@ -4129,6 +4279,7 @@ SplineSet
  356 572 l 1,6,-1
  408 512 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: greater
@@ -4147,6 +4298,7 @@ SplineSet
  47 512 l 1,6,-1
  98 572 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: quotedbl
@@ -4167,6 +4319,7 @@ SplineSet
  196 681 l 1,7,-1
  278 681 l 1,4,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: numbersign
@@ -4211,6 +4364,7 @@ SplineSet
  251 402 l 1,31,-1
  232 224 l 1,28,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asterisk
@@ -4237,6 +4391,7 @@ SplineSet
  83 427 l 1,14,-1
  173 516 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: slash
@@ -4252,6 +4407,7 @@ SplineSet
  57 -73 l 1,3,-1
  308 731 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: percent
@@ -4303,6 +4459,7 @@ SplineSet
  603 179 603 179 585 201 c 128,-1,30
  567 223 567 223 538 223 c 128,-1,31
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: backslash
@@ -4318,6 +4475,7 @@ SplineSet
  296 -73 l 1,3,-1
  45 731 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bar
@@ -4333,6 +4491,7 @@ SplineSet
  101 -122 l 1,3,-1
  101 750 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -4352,6 +4511,7 @@ SplineSet
  101 -102 l 1,7,-1
  101 731 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketright
@@ -4371,6 +4531,7 @@ SplineSet
  184 731 l 1,7,-1
  184 -102 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asciicircum
@@ -4389,6 +4550,7 @@ SplineSet
  110 245 l 1,6,-1
  21 245 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: underscore
@@ -4404,6 +4566,7 @@ SplineSet
  55 -124 l 1,3,-1
  55 -56 l 1,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -4438,6 +4601,7 @@ SplineSet
  206 334.13 206 334.13 154 307 c 1,31,-1
  154 303 l 1,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: braceright
@@ -4472,6 +4636,7 @@ SplineSet
  143 278.13 143 278.13 195 303 c 1,31,-1
  195 307 l 1,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: asciitilde
@@ -4494,6 +4659,7 @@ SplineSet
  230 262 230 262 215.5 267.5 c 0,16,17
  177.273 282 177.273 282 158 282 c 0,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: atilde
@@ -4549,6 +4715,7 @@ SplineSet
  245 633 245 633 234.5 637 c 128,-1,54
  224 641 224 641 213 641 c 0,35,36
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: ntilde
@@ -4592,6 +4759,7 @@ SplineSet
  269 633 269 633 258.5 637 c 128,-1,37
  248 641 248 641 237 641 c 0,18,19
 EndSplineSet
+Validated: 524297
 EndChar
 
 StartChar: otilde
@@ -4637,6 +4805,7 @@ SplineSet
  238 633 238 633 227.5 637 c 128,-1,37
  217 641 217 641 206 641 c 0,18,19
 EndSplineSet
+Validated: 524297
 EndChar
 
 StartChar: Atilde
@@ -4677,6 +4846,7 @@ SplineSet
  253 762 253 762 242.5 766 c 128,-1,30
  232 770 232 770 221 770 c 0,11,12
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Ntilde
@@ -4715,6 +4885,7 @@ SplineSet
  306 762 306 762 295.5 766 c 128,-1,29
  285 770 285 770 274 770 c 0,10,11
 EndSplineSet
+Validated: 524297
 EndChar
 
 StartChar: Otilde
@@ -4760,6 +4931,7 @@ SplineSet
  286 762 286 762 275.5 766 c 128,-1,38
  265 770 265 770 254 770 c 0,19,20
 EndSplineSet
+Validated: 524297
 EndChar
 
 StartChar: ccedilla
@@ -4768,38 +4940,9 @@ Width: 515
 Flags: W
 LayerCount: 2
 Fore
-SplineSet
-351.075 -108.613 m 0,0,1
- 351.075 -182.67 351.075 -182.67 238.967 -182.67 c 0,2,3
- 215.646 -182.67 215.646 -182.67 202.144 -181.033 c 1,4,-1
- 202.144 -140.938 l 1,5,6
- 222.192 -143.392 222.192 -143.392 237.331 -143.392 c 0,7,8
- 297.477 -143.392 297.477 -143.392 297.477 -110.25 c 0,9,10
- 297.477 -78.7451 297.477 -78.7451 243.059 -78.7451 c 0,11,12
- 225.466 -78.7451 225.466 -78.7451 219.737 -79.5635 c 1,13,-1
- 244.649 -9.81105 l 1,14,15
- 168.949 -1.9453 168.949 -1.9453 113.654 57.958 c 0,16,17
- 50 126.917 50 126.917 50 241.292 c 128,-1,18
- 50 355.667 50 355.667 112.969 422.833 c 128,-1,19
- 175.938 490 175.938 490 260.683 490 c 128,-1,20
- 345.429 490 345.429 490 395.128 446.513 c 128,-1,21
- 444.827 403.026 444.827 403.026 460 338 c 1,22,-1
- 380 331 l 1,23,24
- 367 373 367 373 338 396.5 c 128,-1,25
- 309 420 309 420 274.5 420 c 0,26,27
- 209.911 420 209.911 420 170.456 372.014 c 128,-1,28
- 131 324.027 131 324.027 131 241.722 c 128,-1,29
- 131 159.417 131 159.417 169.457 109.208 c 128,-1,30
- 207.915 59 207.915 59 265.457 59 c 128,-1,31
- 323 59 323 59 351.5 85.5 c 128,-1,32
- 380 112 380 112 380 161 c 1,33,-1
- 461 161 l 1,34,35
- 461 83.8232 461 83.8232 407.267 36.4121 c 0,36,37
- 359.983 -5.30876 359.983 -5.30876 288.076 -10.3168 c 1,38,-1
- 274.154 -46.0137 l 1,39,40
- 312.614 -47.2402 312.614 -47.2402 331.844 -63.8115 c 128,-1,41
- 351.075 -80.3818 351.075 -80.3818 351.075 -108.613 c 0,0,1
-EndSplineSet
+Refer: 171 184 N 1 0 0 1 -15.2215 -5.08194 2
+Refer: 14 99 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 
 StartChar: cacute
@@ -4810,6 +4953,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 123.683 -127 2
 Refer: 14 99 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: oe
@@ -4901,6 +5045,7 @@ SplineSet
  750.758 285.5 l 1,56,57
  750.758 385.7 750.758 385.7 689.258 418.5 c 0,50,51
 EndSplineSet
+Validated: 524321
 EndChar
 
 StartChar: OE
@@ -4929,6 +5074,7 @@ SplineSet
  514 437 514 437 462.5 503 c 128,-1,11
  411 569 411 569 323 569 c 128,-1,12
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: cedilla
@@ -4971,6 +5117,7 @@ SplineSet
  327.614 -42.1406 327.614 -42.1406 346.844 -58.7119 c 128,-1,18
  366.075 -75.2822 366.075 -75.2822 366.075 -103.513 c 0,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Ccedilla
@@ -5011,6 +5158,7 @@ SplineSet
  358.039 -47.2402 358.039 -47.2402 377.269 -63.8115 c 128,-1,43
  396.5 -80.3818 396.5 -80.3818 396.5 -108.613 c 0,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: ring
@@ -5040,7 +5188,8 @@ SplineSet
  197.472 621.777 197.472 621.777 216.026 641.553 c 128,-1,10
  234.581 661.328 234.581 661.328 234.581 688.672 c 128,-1,11
 EndSplineSet
-Kerns2: 36 -686 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Validated: 524289
+Kerns2: 36 -686 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Aring
@@ -5051,6 +5200,7 @@ LayerCount: 2
 Fore
 Refer: 173 730 N 1 0 0 1 120.849 61.6309 2
 Refer: 38 65 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: aring
@@ -5061,6 +5211,7 @@ LayerCount: 2
 Fore
 Refer: 173 730 N 1 0 0 1 116.849 -20.5078 2
 Refer: 12 97 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: caron
@@ -5078,6 +5229,7 @@ SplineSet
  203.964 681 l 1,5,-1
  382.964 837 l 1,0,-1
 EndSplineSet
+Validated: 524297
 EndChar
 
 StartChar: Cacute
@@ -5088,6 +5240,7 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 173 23 2
 Refer: 40 67 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: scaron
@@ -5098,6 +5251,7 @@ LayerCount: 2
 Fore
 Refer: 176 711 N 1 0 0 1 59.5361 -131 2
 Refer: 30 115 N 1 0 0 1 0 0 3
+Validated: 9
 EndChar
 
 StartChar: Scaron
@@ -5108,6 +5262,7 @@ LayerCount: 2
 Fore
 Refer: 176 711 N 1 0 0 1 93.5361 19 2
 Refer: 56 83 N 1 0 0 1 0 0 3
+Validated: 9
 EndChar
 
 StartChar: zcaron
@@ -5118,6 +5273,7 @@ LayerCount: 2
 Fore
 Refer: 176 711 N 1 0 0 1 34.5361 -131 2
 Refer: 37 122 N 1 0 0 1 0 0 3
+Validated: 9
 EndChar
 
 StartChar: Zcaron
@@ -5128,6 +5284,7 @@ LayerCount: 2
 Fore
 Refer: 176 711 N 1 0 0 1 100.536 19 2
 Refer: 63 90 N 1 0 0 1 0 0 3
+Validated: 9
 EndChar
 
 StartChar: uni0243
@@ -5174,6 +5331,7 @@ SplineSet
  101 203 l 1,39,-1
  101 629 l 1,20,-1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: Euro
@@ -5219,6 +5377,7 @@ SplineSet
  102.487 491.62 102.487 491.62 156.166 553.438 c 0,47,48
  231.333 640 231.333 640 337 640 c 0,0,1
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: guillemotleft
@@ -5236,6 +5395,7 @@ SplineSet
  223 233.1 l 1,5,-1
  369 429.1 l 1,0,-1
 EndSplineSet
+Validated: 6815745
 EndChar
 
 StartChar: guillemotleft
@@ -5260,6 +5420,7 @@ SplineSet
  208.5 233 l 1,11,-1
  354.5 429 l 1,6,-1
 EndSplineSet
+Validated: 6815745
 EndChar
 
 StartChar: guillemotright
@@ -5284,6 +5445,7 @@ SplineSet
  266.5 233 l 1,11,-1
  120.5 429 l 1,6,-1
 EndSplineSet
+Validated: 524297
 EndChar
 
 StartChar: quotedblleft
@@ -5294,6 +5456,7 @@ LayerCount: 2
 Fore
 Refer: 66 8216 S 1 0 0 1 165 0 2
 Refer: 66 8216 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: quotedblright
@@ -5304,6 +5467,7 @@ LayerCount: 2
 Fore
 Refer: 67 8217 S 1 0 0 1 162 0 2
 Refer: 67 8217 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: quotereversed
@@ -5313,6 +5477,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 66 8216 N 1 0 0 -1 0 1154 2
+Validated: 25
 EndChar
 
 StartChar: uni201F
@@ -5322,6 +5487,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 187 8220 N 1 0 0 -1 0 1153.94 2
+Validated: 25
 EndChar
 
 StartChar: quotesinglbase
@@ -5331,6 +5497,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 67 8217 S 1 0 0 1 0 -578.989 2
+Validated: 1
 EndChar
 
 StartChar: quotedblbase
@@ -5340,6 +5507,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 188 8221 S 1 0 0 1 0 -578.999 2
+Validated: 1
 EndChar
 
 StartChar: ellipsis
@@ -5351,6 +5519,7 @@ Fore
 Refer: 5 46 N 1 0 0 1 357.996 0 2
 Refer: 5 46 N 1 0 0 1 179.059 0 2
 Refer: 5 46 N 1 0 0 1 0.0585938 0 2
+Validated: 1
 EndChar
 
 StartChar: questiondown
@@ -5360,6 +5529,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 94 63 N -1 0 0 -1 499 625 2
+Validated: 1
 EndChar
 
 StartChar: exclamdown
@@ -5369,6 +5539,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 11 33 S -1 0 0 -1 278.011 627 2
+Validated: 1
 EndChar
 
 StartChar: afii57407
@@ -5378,6 +5549,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 94 63 S -1 0 0 1 483 0 2
+Validated: 25
 EndChar
 
 StartChar: uni203D
@@ -5420,6 +5592,7 @@ SplineSet
  159 68 159 68 175 85 c 128,-1,30
  191 102 191 102 217 102 c 128,-1,31
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: multiply
@@ -5443,6 +5616,86 @@ SplineSet
  256 329 l 1,11,-1
  434 507 l 1,0,-1
 EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: scedilla
+Encoding: 351 351 199
+Width: 526
+Flags: W
+LayerCount: 2
+Fore
+Refer: 171 184 N 1 0 0 1 -19.4656 -5.08194 2
+Refer: 30 115 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Scedilla
+Encoding: 350 350 200
+Width: 605
+Flags: W
+LayerCount: 2
+Fore
+Refer: 171 184 N 1 0 0 1 24.7834 -5.08194 2
+Refer: 56 83 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Idotaccent
+Encoding: 304 304 201
+Width: 280
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 5 46 N 1 0 0 1 51.5 709 2
+Refer: 46 73 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: breve
+Encoding: 728 728 202
+Width: 438
+VWidth: 0
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+283.549804688 802.750976562 m 9,0,1
+ 352.5 802.750976562 l 0,2,3
+ 352.087890625 743.127929688 352.087890625 743.127929688 307.171875 700.467773438 c 0,4,5
+ 261.870117188 658.602539062 261.870117188 658.602539062 198 658 c 0,6,7
+ 133.735351562 658.602539062 133.735351562 658.602539062 88.8291015625 700.467773438 c 0,8,9
+ 43.517578125 743.127929688 43.517578125 743.127929688 43.5009765625 802.750976562 c 0,10,-1
+ 111.8125 802.750976562 l 17,11,12
+ 112.815429688 770.077148438 112.815429688 770.077148438 136.073242188 745.329101562 c 0,13,14
+ 159.884765625 721.077148438 159.884765625 721.077148438 198 720.8046875 c 0,15,16
+ 234.412109375 721.077148438 234.412109375 721.077148438 259.529296875 745.166015625 c 0,17,18
+ 283.561754792 768.335872798 283.561754792 768.335872798 283.561754792 801.27700461 c 0,19,20
+ 283.561754792 802.011561211 283.561754792 802.011561211 283.549804688 802.750976562 c 9,0,1
+EndSplineSet
+Validated: 524289
+EndChar
+
+StartChar: Gbreve
+Encoding: 286 286 203
+Width: 645
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 202 728 N 1 0 0 1 110 44 2
+Refer: 44 71 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: gbreve
+Encoding: 287 287 204
+Width: 565
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 202 728 N 1 0 0 1 81.9995 -87 2
+Refer: 18 103 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
